@@ -17,5 +17,4 @@ class DockingStation
     fail 'Docking station full' if @bikes.count >= 20
     @bikes << bike
   end
- 
 end
